@@ -37,4 +37,4 @@ jobs:
     
     steps:
     - name: Test
-      run: bin/clang-format.exe --help
+      run: dir
