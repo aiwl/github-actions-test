@@ -21,6 +21,9 @@ jobs:
     - name: Print dir
       run: dir
 
+    - name: Run clang-format
+      run: bin/clang-format.exe --help
+          
     - name: Add MSBuild to PATH
       uses: microsoft/setup-msbuild@v1.0.2
 
