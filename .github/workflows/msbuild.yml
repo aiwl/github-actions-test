@@ -18,6 +18,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
+    - name: Run clang-tidy
+      run: bin/clang-tidy.exe main.cpp --
+
     - name: Run clang-format
       run: bin/clang-format.exe --dry-run -Werror main.cpp
           

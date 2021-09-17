@@ -1,5 +1,15 @@
 #include <cstdio>
 
+namespace Test {
+
+static void
+test()
+{
+
+}
+
+}
+
 int
 main(int argc, char **argv)
 {
