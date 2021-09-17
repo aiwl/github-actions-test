@@ -33,8 +33,8 @@ jobs:
       
   lint:
     runs-on: windows-latest
-    needs: [build]  
+    #needs: [build]  
     
     steps:
     - name: Test
-      run: clang-tidy
+      run: gh
