@@ -3,6 +3,5 @@
 int
 main(int argc, char **argv)
 {
-    std::puts("Hello, World!");
-    return 0;
-}
+  std::puts("Hello, World!");
+   return 0; }
