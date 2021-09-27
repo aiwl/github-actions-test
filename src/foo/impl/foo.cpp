@@ -3,5 +3,5 @@
 int
 foo()
 {
-    return 43;
+    return 42;
 }
