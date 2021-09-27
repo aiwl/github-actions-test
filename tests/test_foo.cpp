@@ -2,13 +2,12 @@
 #include <cstdlib>
 #include <foo/foo.hpp>
 
-#define ASSERT(expr) do { if (!expr) { std::fprintf(stderr, "Test failed\n"); exit(1); } } while(0)
+#define ASSERT(expr) do { if (!(expr)) { std::fprintf(stderr, "Test failed\n"); exit(1); } } while(0)
 
 static void
 test_foo()
 {
     ASSERT(42 == foo());
-    std::puts("hello, world");
 }
 
 int
