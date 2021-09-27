@@ -8,6 +8,7 @@ static void
 test_foo()
 {
     ASSERT(42 == foo());
+    std::puts("hello, world");
 }
 
 int
